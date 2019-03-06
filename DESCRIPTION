@@ -1,0 +1,16 @@
+Package: UWb508
+Type: Package
+Title: UW BIOST 508 Utility Functions
+Version: 0.1.0
+Author: Barbara McKnight
+Maintainer: Barbara McKnight <bmck@uw.edu>
+Description:Useful presentation functions for results: For single binomial proportions, function to compute large-sample CI.
+        For models created by lm(), function to create output based on robust standard errors.
+Encoding: UTF-8
+LazyData: true
+License: MIT + file LICENSE
+Imports: 
+  lmtest (>= 0.9-36), 
+  sandwich (>= 2.5-0)
+RoxygenNote: 6.1.1
+
